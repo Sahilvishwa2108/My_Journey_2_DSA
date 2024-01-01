@@ -1,7 +1,7 @@
 //Switch case problem
 
 
-public class Solution {
+public class Problem1 {
     public static double areaSwitchCase(int ch, double []a) {
         // Write your code here
         double result = 0;
