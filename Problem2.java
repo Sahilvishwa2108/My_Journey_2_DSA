@@ -24,7 +24,7 @@ Constraints:
 Follow up: Could you solve it without converting the integer to a string? */
 
 
-
+//Brute force Approach
 class Problem2 {
     public boolean isPalindrome(int x) {
         String str = Integer.toString(x);
@@ -35,3 +35,6 @@ class Problem2 {
         return false;
     }
 }
+
+
+//Optimised Approach
