@@ -20,3 +20,34 @@ Constraints:
 The number of nodes in the list is in the range [0, 300].
 -100 <= Node.val <= 100
 The list is guaranteed to be sorted in ascending order. */
+
+class Solution {
+    public ListNode deleteDuplicates(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        int size = 0;
+        ListNode temp = head;
+        while (temp != null) {
+            temp = temp.next;
+            size++;
+        }
+        temp = head;
+        for (int i = 0; i < size && temp != null; i++) {
+            int valAtI = temp.val;
+            ListNode prev = temp;
+            ListNode curr = temp.next;
+            while (curr != null && temp != null) {
+                if (curr.val == valAtI) {
+                    prev.next = curr.next;
+                    curr = curr.next;
+                } else {
+                    prev = curr;
+                    curr = curr.next;
+                }
+            }
+            temp = temp.next;
+        }
+        return head;
+    }
+}
