@@ -1,1 +1,1 @@
-## This Repository contains the DSA problems solved by me using Striver's DSA sheet
+## This Repository contains the DSA problems solved by me on Leetcode 
