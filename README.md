@@ -1,1 +1,1 @@
-## This Repository contains the DSA problems solved by me on Leetcode and various coding platforms
+## This Repository contains the DSA problems solved on Leetcode and various coding platforms
