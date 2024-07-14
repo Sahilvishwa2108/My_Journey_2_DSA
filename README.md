@@ -1,1 +1,1 @@
-## This Repository contains the DSA problems solved by me on various platform
+## This Repository contain the DSA problems solved by me on various platform
